@@ -27,7 +27,7 @@ dependencies {
     implementation "com.google.protobuf:protobuf-java:3.25.5"
     implementation "com.google.protobuf:protobuf-java-util:3.25.5"
     implementation "org.xerial.snappy:snappy-java:1.1.7.3"
-    implementation "org.apache.httpcomponents:httpclient:4.5.12"
+    implementation "org.apache.httpcomponents:httpclient:4.5.13"
 }
 
 tasks.register('fatJar', Jar) {
